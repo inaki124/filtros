@@ -1,0 +1,24 @@
+body{
+    background-size: cover;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow:50px 5px 5px plum}
+    to{
+        box-shadow: 25px 5px 5px violet;
+    }
+  }
+
+  #pepe{
+    font-size: 35px;
+  }
+
+  #peppa{
+    font-size:20px;
+  }
